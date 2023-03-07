@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98a5584639efc944987c6f550745d627, type: 3}
+  m_Name: Boots 2
+  m_EditorClassIdentifier: 
+  ItemName: Black leather Boots
+  category: 2
+  index: 2
+  cost: 150
+  sprites:
+  - {fileID: 21300000, guid: 31946939123e425428e17f4446fe124d, type: 3}
+  - {fileID: 21300000, guid: 26aac3305c49a7b4fbd646c65a13b326, type: 3}
+  - {fileID: 21300000, guid: d3a1adf4171cb3848a645021818ddfe6, type: 3}
+  - {fileID: 21300000, guid: cd6ee16fd92445c47872c4f15cfd813e, type: 3}
+  - {fileID: 21300000, guid: 5affe015f59202e47938aad77cf87c81, type: 3}
+  - {fileID: 21300000, guid: 1ec31c0b63149f94f89ad44979d69b8d, type: 3}

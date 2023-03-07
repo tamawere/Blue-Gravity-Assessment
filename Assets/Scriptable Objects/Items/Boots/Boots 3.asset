@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98a5584639efc944987c6f550745d627, type: 3}
+  m_Name: Boots 3
+  m_EditorClassIdentifier: 
+  ItemName: Rubber boots
+  category: 2
+  index: 3
+  cost: 200
+  sprites:
+  - {fileID: 21300000, guid: 62d59b03e6ebd4842898fd02ffde5f3a, type: 3}
+  - {fileID: 21300000, guid: d81fca0625bafbc4a91c2c0851ab5a62, type: 3}
+  - {fileID: 21300000, guid: d1d710731d73ccd4eab47d640154fa29, type: 3}
+  - {fileID: 21300000, guid: 8d3a646230585f043a5005e38d9d1f3c, type: 3}
+  - {fileID: 21300000, guid: aa9056a47b7435048b88d83bdc5688a4, type: 3}
+  - {fileID: 21300000, guid: 2c6a1008a5149b242a03bda41ed286c8, type: 3}

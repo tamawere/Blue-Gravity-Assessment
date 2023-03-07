@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98a5584639efc944987c6f550745d627, type: 3}
+  m_Name: Hat 1
+  m_EditorClassIdentifier: 
+  ItemName: Ancient helmet
+  category: 0
+  index: 1
+  cost: 100
+  sprites:
+  - {fileID: 21300000, guid: 322e39f28acb1684d8ad78647d0052d8, type: 3}
+  - {fileID: 21300000, guid: 97b818378f6492f478d1f419a267a9f8, type: 3}
+  - {fileID: 21300000, guid: aaf650103f7782b41b525acc1c1b0be4, type: 3}

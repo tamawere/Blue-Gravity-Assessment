@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61caa9678c544764082db672b680c3de, type: 3}
+  m_Name: Player_Inventory
+  m_EditorClassIdentifier: 
+  money: 1000
+  wearingHat: {fileID: 11400000, guid: 5497dfbbeefeabe439c4dd17bc4aa8f6, type: 2}
+  wearingClothes: {fileID: 11400000, guid: 46d625a241e1b1a4a9699231edc1d8aa, type: 2}
+  wearingBoots: {fileID: 11400000, guid: ffbfecdf82402c44abac2ab81b0f9661, type: 2}
+  hatInventory: []
+  clothesInventory: []
+  bootsInventory: []

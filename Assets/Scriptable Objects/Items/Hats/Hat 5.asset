@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98a5584639efc944987c6f550745d627, type: 3}
+  m_Name: Hat 5
+  m_EditorClassIdentifier: 
+  ItemName: Viking helmet
+  category: 0
+  index: 5
+  cost: 300
+  sprites:
+  - {fileID: 21300000, guid: c011443a0d467814ca0f4516a2f43ca7, type: 3}
+  - {fileID: 21300000, guid: 86d1228eaa23a424e91344643cc23a8c, type: 3}
+  - {fileID: 21300000, guid: b3f30f19b8af1ca4cb9394b2ce5ce4c1, type: 3}
