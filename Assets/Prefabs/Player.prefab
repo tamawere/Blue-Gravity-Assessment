@@ -1422,9 +1422,9 @@ GameObject:
   - component: {fileID: 965951922707098821}
   - component: {fileID: 2896628999541894054}
   - component: {fileID: 5846894672250799264}
-  - component: {fileID: 5846894672250799267}
   - component: {fileID: 5846894672250799265}
   - component: {fileID: 7982913729075101645}
+  - component: {fileID: 5846894672250799267}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1492,19 +1492,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &5846894672250799267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5846894672250799266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9914cdc72ba07a1408fb6df9c088b145, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 15
 --- !u!82 &5846894672250799265
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1515,7 +1502,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9a1b7f8216770b24e8e5f0c3a6e3f1ef, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 845db179668c1204b871d74fe23ae2f9, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1617,6 +1604,24 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 2.8761964}
   m_Size: {x: 3.827909, y: 5.7791777}
   m_Direction: 0
+--- !u!114 &5846894672250799267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5846894672250799266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9914cdc72ba07a1408fb6df9c088b145, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 15
+  inventory: {fileID: 11400000, guid: fe1a5e8c9a0d6c34d9d05a2c8ead3664, type: 2}
+  hatSprite: {fileID: 3762266369193257938}
+  clothesSprite: {fileID: 70196791771062510}
+  LeftBootSprite: {fileID: 3057743172058659350}
+  rightBootSprite: {fileID: 8517626139717767954}
 --- !u!1 &6354133529769774086
 GameObject:
   m_ObjectHideFlags: 0

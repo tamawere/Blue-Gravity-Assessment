@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cce4fd3698674c74c8f33482b392125f, type: 3}
   m_Name: Blacksmith
   m_EditorClassIdentifier: 
-  NPCName: 
-  job: 0
-  money: 0
-  dialogues: []
+  NPCName: Blacksmith Hephaestus
+  job: 1
+  money: 6000
+  dialogues:
+  - Hello traveler, would you like to trade some stuff?
+  - 'It was a pleasure doing business with you. '
+  inventory: []

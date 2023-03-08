@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   money: 1000
   wearingHat: {fileID: 11400000, guid: 5497dfbbeefeabe439c4dd17bc4aa8f6, type: 2}
-  wearingClothes: {fileID: 11400000, guid: 46d625a241e1b1a4a9699231edc1d8aa, type: 2}
+  wearingClothes: {fileID: 11400000, guid: ff35c2be6515da74b8f0af9ee7795311, type: 2}
   wearingBoots: {fileID: 11400000, guid: ffbfecdf82402c44abac2ab81b0f9661, type: 2}
   hatInventory: []
   clothesInventory: []

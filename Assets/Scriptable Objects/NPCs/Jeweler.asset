@@ -12,7 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cce4fd3698674c74c8f33482b392125f, type: 3}
   m_Name: Jeweler
   m_EditorClassIdentifier: 
-  NPCName: 
+  NPCName: Jeweler Midas
   job: 0
   money: 0
-  dialogues: []
+  dialogues:
+  - La-dee-da, la-dee-da.
+  - I would have gotten away with it, if it weren't for you meddling kids
+  - With great power comes great responsibility
+  - I see dead people.
+  inventory: []

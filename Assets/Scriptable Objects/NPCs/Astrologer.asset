@@ -12,7 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cce4fd3698674c74c8f33482b392125f, type: 3}
   m_Name: Astrologer
   m_EditorClassIdentifier: 
-  NPCName: 
+  NPCName: Astrologer Galileo
   job: 0
   money: 0
-  dialogues: []
+  dialogues:
+  - There's no place like home.
+  - Carpe diem. Seize the day, boy. Make your live extraordinary.
+  - You can't handle the truth!
+  - My mama always said life was like a box of chocolates. You never know what you're
+    gonna get.
+  inventory: []

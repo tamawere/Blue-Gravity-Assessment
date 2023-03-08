@@ -12,7 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cce4fd3698674c74c8f33482b392125f, type: 3}
   m_Name: Citizen
   m_EditorClassIdentifier: 
-  NPCName: 
+  NPCName: Citizen Kane
   job: 0
   money: 0
-  dialogues: []
+  dialogues:
+  - Houston, we have a problem.
+  - Keep your friends close, but your enemies closer.
+  - Today, I consider myself the luckiest man on the face of the earth.
+  - You talking to me?
+  inventory: []
