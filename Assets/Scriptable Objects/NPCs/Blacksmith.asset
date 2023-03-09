@@ -14,8 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NPCName: Blacksmith Hephaestus
   job: 1
-  money: 6000
+  money: 4000
   dialogues:
   - Hello traveler, would you like to trade some stuff?
   - 'It was a pleasure doing business with you. '
-  inventory: []
+  inventory:
+  - {fileID: 11400000, guid: 6ec1c954d9e92424a803382684164091, type: 2}
+  - {fileID: 11400000, guid: 30615596be2baec4799b4dc97ffaced8, type: 2}
+  - {fileID: 11400000, guid: e60c1ec498dcdb14dbc9325b2bc7b572, type: 2}
+  - {fileID: 11400000, guid: 46d625a241e1b1a4a9699231edc1d8aa, type: 2}
+  - {fileID: 11400000, guid: 97fa7e9a66e7e624aa255ba396bbbb85, type: 2}
+  - {fileID: 11400000, guid: 19d98bfa18f75ad41929672d630b2b15, type: 2}

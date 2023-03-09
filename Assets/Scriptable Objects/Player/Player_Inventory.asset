@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Player_Inventory
   m_EditorClassIdentifier: 
   money: 1000
-  wearingHat: {fileID: 11400000, guid: 5497dfbbeefeabe439c4dd17bc4aa8f6, type: 2}
-  wearingClothes: {fileID: 11400000, guid: ff35c2be6515da74b8f0af9ee7795311, type: 2}
-  wearingBoots: {fileID: 11400000, guid: ffbfecdf82402c44abac2ab81b0f9661, type: 2}
+  wearingHat: {fileID: 11400000, guid: 01057013c5574ce4f82cf8dfef6e2e30, type: 2}
+  wearingClothes: {fileID: 11400000, guid: c660df9f3a42e7c42a2cce7ad2aa657b, type: 2}
+  wearingBoots: {fileID: 11400000, guid: 470a1168ad6f4f54eb24b6c70539ce44, type: 2}
   hatInventory: []
   clothesInventory: []
   bootsInventory: []

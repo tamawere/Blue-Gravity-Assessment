@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 /// <summary>
 /// UI animation moves from outside of the screen to a given point 
@@ -11,11 +8,11 @@ public class Panel_animation : MonoBehaviour
     [SerializeField]
     private float speed = 0;
     [SerializeField]
-    private Vector2 finalpos;
-  
-    [SerializeField]
     private Vector2 initpos;
-    Vector2 posA, posB;
+    [SerializeField]
+    private Vector2 finalpos;
+
+    private Vector2 posA, posB;
     bool move = false;
     bool togled = false;
     // Start is called before the first frame update
@@ -44,8 +41,8 @@ public class Panel_animation : MonoBehaviour
         }
     }
 
-    //function to display the menu
-    public void ToggleMenu()
+    
+    public void ToggleMenu()//function to display the panel
     {
         if (!togled)
         {

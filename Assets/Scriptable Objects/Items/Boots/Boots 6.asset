@@ -12,8 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98a5584639efc944987c6f550745d627, type: 3}
   m_Name: Boots 6
   m_EditorClassIdentifier: 
-  ItemName: 
+  ItemName: Fashion Boots
   category: 2
   index: 6
   cost: 350
-  sprites: []
+  sprites:
+  - {fileID: 21300000, guid: b06c0c4c50ac0284cb5f1a13ea3e3d69, type: 3}
+  - {fileID: 21300000, guid: 370d84098f81431448ed8608a9f1260e, type: 3}
+  - {fileID: 21300000, guid: 6e5117f98bd419043b27e88109822232, type: 3}
+  - {fileID: 21300000, guid: a77d79a4a753fe5498142ab563b2cc43, type: 3}
+  - {fileID: 21300000, guid: 23ac7ea7b64eb8d4cb7473229e4f41e0, type: 3}
+  - {fileID: 21300000, guid: e25b9cb9bc24b064bba2a1390603c535, type: 3}

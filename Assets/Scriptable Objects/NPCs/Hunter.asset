@@ -14,8 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NPCName: Hunter Kraven
   job: 1
-  money: 4000
+  money: 2000
   dialogues:
   - Hello traveler, would you like to trade some stuff?
   - 'It was a pleasure doing business with you. '
-  inventory: []
+  inventory:
+  - {fileID: 11400000, guid: d36da85b8bd46ad489ad8c8a36ae1156, type: 2}
+  - {fileID: 11400000, guid: ff35c2be6515da74b8f0af9ee7795311, type: 2}
+  - {fileID: 11400000, guid: 8d5d802d69362fe43a429bcd3f472e42, type: 2}

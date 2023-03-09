@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 /// <summary>
@@ -13,6 +12,8 @@ public class Dialogue_Controller : MonoBehaviour
     public GameObject panel;//text panel
     [SerializeField] private GameObject buttons;//button panel
     [SerializeField] private TMP_Text text;//text component to type on
+    [SerializeField] private AudioClip buttonSound,talkingSound;//text component to type on
+    [SerializeField] private Trader_controller trading;
 
     private AudioSource audiosource;//players audiosource
     private void Awake()
@@ -34,11 +35,24 @@ public class Dialogue_Controller : MonoBehaviour
         {
             buttons.SetActive(false);
         }
-        StartCoroutine("WriteDialogue");//inits the write function   
-        
-        
+        writeDialog();
     }
 
+    public void tradeButton()
+    {
+        if (!Inventory_Controller.UIisOpen)
+        {
+            CloseDialog();
+            trading.openTrade();
+        }
+    }
+    public void closeButton()
+    {
+        audiosource.clip = buttonSound;
+        audiosource.loop = false;
+        audiosource.Play();
+        CloseDialog();
+    }
     public void CloseDialog()//closes the dialog panel
     {
         buttons.SetActive(false);//hides the buttons
@@ -70,21 +84,33 @@ public class Dialogue_Controller : MonoBehaviour
     }
 
     bool isTyping = false;//variable to avoid closing it while typing
-    IEnumerator WriteDialogue()
+
+    public void writeDialog()
+    {
+        if (npc.job.Equals(role.Villager))//checks if we can trade with the NPC and sets the dialogs 
+        {
+            var coroutine = WriteDialogue(npc.dialogues[rand(npc.dialogues.Count - 1)]);
+            StartCoroutine(coroutine);
+        }
+        else if (npc.job.Equals(role.Trader))
+        {
+            var coroutine = WriteDialogue(npc.dialogues[0]);
+            StartCoroutine(coroutine);
+        }
+        
+
+    }
+    public void writeDialog(int index)
+    {
+        var coroutine = WriteDialogue(npc.dialogues[index]);
+        StartCoroutine(coroutine);
+    }
+    IEnumerator WriteDialogue(string dialogue)
     {
         isTyping = true;//sets variable to true to avoid closing it while typing
-        string dialogue = "";//variable that will contain the dialog
-
-        if (npc.job.Equals(role.Villager) )//checks if we can trade with the NPC and sets the dialogs 
-        {
-            dialogue = npc.dialogues[rand(npc.dialogues.Count - 1)];//gets random dialog
-        }
-        else if(npc.job.Equals(role.Trader))
-        {
-            dialogue = npc.dialogues[0];//gets the first dialog
-        }
-
-        audiosource.Play();//plays the typing sound
+        audiosource.clip = talkingSound;
+        audiosource.loop = true;
+        audiosource.Play();
         text.text = npc.NPCName + ": ";//ads the NPC name to the text
         for (int i = 0; i < dialogue.Length; i++)//types the dialog letter by letter
         {

@@ -12,8 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98a5584639efc944987c6f550745d627, type: 3}
   m_Name: Boots 4
   m_EditorClassIdentifier: 
-  ItemName: 
+  ItemName: Yellow Boots
   category: 2
   index: 4
   cost: 250
-  sprites: []
+  sprites:
+  - {fileID: 21300000, guid: 0fa7953df07640a48bb68d51980fd744, type: 3}
+  - {fileID: 21300000, guid: 7fc10148e7faf3f4cab76873c5e13765, type: 3}
+  - {fileID: 21300000, guid: e4d0a1e54468675408f8232f1a2c59df, type: 3}
+  - {fileID: 21300000, guid: 8145f14dbbe648d41a1bd7a9e01cd188, type: 3}
+  - {fileID: 21300000, guid: 6bc19db2aff18114385f6711b916f6b7, type: 3}
+  - {fileID: 21300000, guid: 0db71920252cee1469499721500aef77, type: 3}

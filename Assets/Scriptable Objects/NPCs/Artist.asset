@@ -14,8 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NPCName: Artist Vincent
   job: 1
-  money: 5000
+  money: 3000
   dialogues:
   - Hello traveler, would you like to trade some stuff?
   - 'It was a pleasure doing business with you. '
-  inventory: []
+  inventory:
+  - {fileID: 11400000, guid: ffbfecdf82402c44abac2ab81b0f9661, type: 2}
+  - {fileID: 11400000, guid: 5497dfbbeefeabe439c4dd17bc4aa8f6, type: 2}
+  - {fileID: 11400000, guid: b4bc9720aaa7b0644950857a47b8398d, type: 2}
+  - {fileID: 11400000, guid: 543a014c07bc31e49aa4399bfb729368, type: 2}
+  - {fileID: 11400000, guid: b4b0395bba5f97f4ebc90962dd3e2d54, type: 2}
+  - {fileID: 11400000, guid: bfec3889131773f4d8370069b7849bcc, type: 2}

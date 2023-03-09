@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98a5584639efc944987c6f550745d627, type: 3}
   m_Name: Boots 3
   m_EditorClassIdentifier: 
-  ItemName: Rubber boots
+  ItemName: Rubber Boots
   category: 2
   index: 3
   cost: 200

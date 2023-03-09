@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98a5584639efc944987c6f550745d627, type: 3}
   m_Name: Boots 2
   m_EditorClassIdentifier: 
-  ItemName: Black leather Boots
+  ItemName: Black Leather Boots
   category: 2
   index: 2
   cost: 150

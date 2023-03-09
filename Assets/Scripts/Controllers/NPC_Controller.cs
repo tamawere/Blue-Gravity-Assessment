@@ -1,7 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// controlls the NPCs behaviour
+/// </summary>
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(AudioSource))]
 public class NPC_Controller : MonoBehaviour
@@ -29,7 +29,7 @@ public class NPC_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space") && !dialog.panel.activeSelf && playerIsNear)
+        if (Input.GetKeyDown("space") && !dialog.panel.activeSelf && playerIsNear && !Inventory_Controller.UIisOpen)
         {
             //playerIsNear = false;
             dialog.ShowDialog(inventory);
@@ -64,10 +64,5 @@ public class NPC_Controller : MonoBehaviour
             Text.SetActive(false);
             dialog.CloseDialog();
         }
-    }
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        
-
     }
 }
