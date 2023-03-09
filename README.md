@@ -17,7 +17,11 @@ For this project I Used some third party assets, all of them under the creative 
 
  - [Sound Effects](https://freesound.org/)
  - [Player assets](https://craftpix.net/freebies/free-warrior-4-direction-character-sprites/?num=5&count=564&sq=rpg&pos=11)
- - [Scenery](https://craftpix.net/freebies/free-tropical-medieval-city-2d-tileset/?num=2&count=564&sq=rpg&pos=5)
+ - [Scenery](https://craftpix.net/freebies/free-tropical-medieval-city-2d-tileset/?num=2&count=564&sq=rpg&pos=5)  
+
+## Gameplay  
+[Watch in youtube](https://www.youtube.com/watch?v=FDN4Yg3_C3o&ab_channel=DanielRomero)  
+
 
 ## Documentation
 [PDF with my process explanation](/process_explanation.pdf)
@@ -38,7 +42,6 @@ For this project I Used some third party assets, all of them under the creative 
 
 
 ## Demo
-
-download the .exe
+[download the .exe](/executable)
 
 
